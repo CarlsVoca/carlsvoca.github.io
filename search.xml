@@ -108,7 +108,7 @@
   <entry>
     <title>【持续更新】常用STL</title>
     <url>/2020/08/01/%E3%80%90%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0%E3%80%91%E5%B8%B8%E7%94%A8STL/</url>
-    <content><![CDATA[<p>总结了一s些用到过的STL函数</p>
+    <content><![CDATA[<p>总结了一些用到过的STL函数</p>
 <a id="more"></a>
 <h3 id="on求容器中第k小">O(n)求容器中第k小</h3>
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line">nth_element(a+<span class="number">1</span>,a+k,a+n+<span class="number">1</span>);<span class="comment">//无返回值，作用是将第k小的数放到下标为k的位置</span></span><br><span class="line">nth_element(a+<span class="number">1</span>,a+k,a+n+<span class="number">1</span>,cmp);<span class="comment">//cmp为自定义比较函数</span></span><br></pre></td></tr></table></figure>
